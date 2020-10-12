@@ -1,3 +1,3 @@
 #!/bin/sh
 
-jmeter -p custom.properties -n -t testing.jmx
+jmeter -p test/app-python/custom.properties -n -t test/app-python/testing.jmx
