@@ -9,7 +9,7 @@ pathresult=/usr/share/nginx/html/result_$timestamp
 jmeter -p test/app-movies/default.properties -J pathresult=$pathresult -n -t test/app-movies/test.jmx -j $pathresult/jmeter.log
 
 jmeter -g $pathresult/reporthtml.csv -o $pathresult/html
-echo "<tr><td><a href='/result_$timestamp/html/index.html'>$pathresult</a></td></tr>" >> /usr/share/nginx/html/pathindex.txt
+echo "<tr><td><a href='/result_$timestamp/html/index.html'>$result_$timestamp</a></td></tr>" >> /usr/share/nginx/html/pathindex.txt
 
 if [ -f /usr/share/nginx/html/index.html ];
 then
