@@ -8,37 +8,37 @@ pathresult=/result/result_$timestamp
 jmeter -p test/app-movies/default.properties -J pathresult=$pathresult -n -t test/app-movies/test.jmx -j $pathresult/jmeter.log
 
 jmeter -g $pathresult/reporthtml.csv -o $pathresult/html
-echo "<tr><td><a href='$path/html/index.html'>$path</a></td></tr>" >> pathindex.txt
+echo "<tr><td><a href='$path/html/index.html'>$path</a></td></tr>" >> /result/pathindex.txt
 
-if [ -f index.html ];
+if [ -f /result/index.html ];
 then
-rm -r index.html
+rm -r /result/index.html
 fi
-echo "<!doctype html>" > index.html
-echo "<html lang='es'>" >> index.html
-echo "<head>" >> index.html
-echo "<title>Result test Page</title>" >> index.html
-echo "</head>" >> index.html
-echo "<body>" >> index.html
-echo "<div class='container'>" >> index.html
-echo "<div class='row'>" >> index.html
-echo "<div class='col 4'>" >> index.html
-echo "<h1>Resultados:</h1>" >> index.html
-echo "<table class='table'>" >> index.html
-echo "<thead>" >> index.html
-echo "<tr>" >> index.html
-echo "<th scope='col'>Name</th>" >> index.html
-echo "</tr>" >> index.html
-echo "</thead>" >> index.html
-echo "<tbody>" >> index.html
-if [ -f pathindex.txt ];
+echo "<!doctype html>" > /result/index.html
+echo "<html lang='es'>" >> /result/index.html
+echo "<head>" >> /result/index.html
+echo "<title>Result test Page</title>" >> /result/index.html
+echo "</head>" >> /result/index.html
+echo "<body>" >> /result/index.html
+echo "<div class='container'>" >> /result/index.html
+echo "<div class='row'>" >> /result/index.html
+echo "<div class='col 4'>" >> /result/index.html
+echo "<h1>Resultados:</h1>" >> /result/index.html
+echo "<table class='table'>" >> /result/index.html
+echo "<thead>" >> /result/index.html
+echo "<tr>" >> /result/index.html
+echo "<th scope='col'>Name</th>" >> /result/index.html
+echo "</tr>" >> /result/index.html
+echo "</thead>" >> /result/index.html
+echo "<tbody>" >> /result/index.html
+if [ -f /result/pathindex.txt ];
 then
 while read linea; do
-	echo -e "$linea" >> index.html
-done < pathindex.txt
+	echo -e "$linea" >> /result/index.html
+done < /result/pathindex.txt
 fi
-echo "</tbody>" >> index.html
-echo "</div>" >> index.html
-echo "</div>" >> index.html
-echo "</div>" >> index.html
-echo "</html>" >> index.html
+echo "</tbody>" >> /result/index.html
+echo "</div>" >> /result/index.html
+echo "</div>" >> /result/index.html
+echo "</div>" >> /result/index.html
+echo "</html>" >> /result/index.html
