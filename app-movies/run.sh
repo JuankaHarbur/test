@@ -8,7 +8,7 @@ pathresult=/result/result_$timestamp
 jmeter -p test/app-movies/default.properties -J pathresult=$pathresult -n -t test/app-movies/test.jmx -j $pathresult/jmeter.log
 
 jmeter -g $pathresult/reporthtml.csv -o $pathresult/html
-echo "<tr><td><a href='$path/html/index.html'>$path</a></td></tr>" >> /result/pathindex.txt
+echo "<tr><td><a href='$pathresult/html/index.html'>$pathresult</a></td></tr>" >> /result/pathindex.txt
 
 if [ -f /result/index.html ];
 then
