@@ -1,0 +1,40 @@
+2020-10-28 18:11:35,113 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-10-28 18:11:35,122 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.3\bin\user.properties
+2020-10-28 18:11:35,122 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.3\bin\system.properties
+2020-10-28 18:11:35,124 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-10-28 18:11:35,124 INFO o.a.j.JMeter: Version 5.3
+2020-10-28 18:11:35,124 INFO o.a.j.JMeter: java.version=1.8.0_231
+2020-10-28 18:11:35,125 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-10-28 18:11:35,125 INFO o.a.j.JMeter: os.name=Windows 10
+2020-10-28 18:11:35,125 INFO o.a.j.JMeter: os.arch=amd64
+2020-10-28 18:11:35,128 INFO o.a.j.JMeter: os.version=10.0
+2020-10-28 18:11:35,129 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-10-28 18:11:35,129 INFO o.a.j.JMeter: java.awt.headless=null
+2020-10-28 18:11:35,129 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-10-28 18:11:35,129 INFO o.a.j.JMeter: Available Processors =6
+2020-10-28 18:11:35,132 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-10-28 18:11:35,133 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-10-28 18:11:35,133 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.3
+2020-10-28 18:11:35,133 INFO o.a.j.JMeter: user.dir  =C:\Users\jkind\Desktop\test\app-python
+2020-10-28 18:11:35,133 INFO o.a.j.JMeter: PWD       =C:\Users\jkind\Desktop\test\app-python
+2020-10-28 18:11:39,652 INFO o.a.j.JMeter: IP: 192.168.99.1 Name: GANJAMANIX FullName: GANJAMANIX
+2020-10-28 18:11:39,704 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2020-10-28 18:11:39,957 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-10-28 18:11:45,643 INFO o.a.j.s.FileServer: Default base='C:\Users\jkind\Desktop\test\app-python'
+2020-10-28 18:11:45,646 INFO o.a.j.g.a.Load: Loading file: C:\Users\jkind\Desktop\test\app-python\testing.jmx
+2020-10-28 18:11:45,646 INFO o.a.j.s.FileServer: Set new base='C:\Users\jkind\Desktop\test\app-python'
+2020-10-28 18:11:45,728 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-10-28 18:11:45,738 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-10-28 18:11:45,739 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-10-28 18:11:45,740 INFO o.a.j.s.SaveService: Loading file: C:\Users\jkind\Desktop\test\app-python\testing.jmx
+2020-10-28 18:11:45,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-28 18:11:45,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-28 18:11:45,764 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-28 18:11:45,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-10-28 18:11:45,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-10-28 18:11:45,765 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-10-28 18:11:45,888 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-10-28 18:11:45,888 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-10-28 18:11:45,888 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-10-28 18:11:45,888 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-10-28 18:11:46,067 INFO o.a.j.s.FileServer: Set new base='C:\Users\jkind\Desktop\test\app-python'
